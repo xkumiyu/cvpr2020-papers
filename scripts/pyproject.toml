@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cvpr2020-papers-scripts"
+version = "0.1.0"
+description = ""
+authors = ["xkumiyu <xkumiyu@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.23.0"
+pandas = "^1.0.4"
+lxml = "^4.5.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.2"
+black = "^19.10b0"
+isort = "^4.3.21"
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
